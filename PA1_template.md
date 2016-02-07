@@ -133,7 +133,7 @@ legend('topright', lty = 1, lwd = 3, col = c("red", "green"), cex = .8,
                paste('Median: ', total.steps.median)))
 ```
 
-![](images/histogram-no-missing-values-1.png)
+![](figure/histogram-no-missing-values-1.png)
 
 *mean* and *median* functions without missing values
 
@@ -190,7 +190,7 @@ points(maximum$interval, maximum$steps, col = 'blue', lwd = 3, pch = 19)
 legend("topright", legend = max_lab, bty = 'n')
 ```
 
-![](images/timeseries-average-steps-interval-1.png)
+![](figure/timeseries-average-steps-interval-1.png)
 
 #### Which is tne maximum number of steps in the 5-minute interval?
 
@@ -273,7 +273,7 @@ legend('topright', lty = 1, lwd = 3, col = c("red", "green"), cex = .8,
                paste('Median: ', total.steps.median)))
 ```
 
-![](images/histogram-filled-data-1.png)
+![](figure/histogram-filled-data-1.png)
 
 *mean* and *median* functions with all the observations
 
@@ -339,6 +339,6 @@ xyplot(avg_steps ~ interval | daytype, data = summary.by.daytype,
       layout = c(1,2))
 ```
 
-![](images/weekday-weekend-patterns-1.png)
+![](figure/weekday-weekend-patterns-1.png)
 
 > **Yes!**, there are differences, the group of enthusiasts walks more in the Weekends, but the group of enthusiasts walks more, early in the morning around 8.00 hrs, in the Weekdays

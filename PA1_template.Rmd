@@ -11,7 +11,7 @@ output:
 
 ```{r opts, echo = FALSE}
 knitr::opts_chunk$set(
-  fig.path = "images/"
+  fig.path = "figure/"
 )
 ```
 
